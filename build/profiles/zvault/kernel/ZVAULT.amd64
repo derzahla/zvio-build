@@ -467,7 +467,7 @@ device		ntb_transport	# NTB packet transport driver
 device		ntb		# NTB hardware interface
 device		ntb_hw_intel	# Intel NTB hardware driver
 device		ntb_hw_plx	# PLX NTB hardware driver
-device		ixnvdimm	# NVDIMM driver with sync over NTB
+#device		ixnvdimm	# NVDIMM driver with sync over NTB
 device		ioat		# Intel I/OAT DMA engine
 
 ## End TrueNAS specific section

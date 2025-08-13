@@ -27,56 +27,56 @@
 repos += {
     "name": "zvio-os",
     "path": "zvio-os",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-os",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-os",
+    "branch": "releng/13.5"
 }
 
 repos += {
     "name": "zvio-middleware",
     "path": "zvio-middleware",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-middleware",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-middleware",
+    "branch": "zvio-13.5"
 }
 
 
 repos += {
     "name": "zvio-webui",
     "path": "zvio-webui",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-webui",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-webui",
+    "branch": "zvio-13.5"
 }
 
 repos += {
     "name": "zvio-ports",
     "path": "zvio-ports",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-ports.git",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-ports.git",
+    "branch": "zvio-13.5"
 }
 
 repos += {
     "name" :"zvio-py-licenselib",
     "path": "zvio-py-licenselib",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-py-licenselib.git",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-py-licenselib.git",
+    "branch": "zvio-13.5"
 }
 
 repos += {
     "name": "zvio-pkgtools",
     "path": "zvio-pkgtools",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-pkgtools.git",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-pkgtools.git",
+    "branch": "zvio-13.5"
 }
 
 repos += {
     "name": "zvio-py-bsd",
     "path": "zvio-py-bsd",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-py-bsd.git",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-py-bsd.git",
+    "branch": "zvio-13.5"
 }
 
 repos += {
     "name": "zvio-iocage",
     "path": "zvio-iocage",
-    "url": "http://127.0.0.1:3000/zvaultio/zvio-iocage.git",
-    "branch": "zvio-13.3"
+    "url": "ssh://git@github.com/derzahla/zvio-iocage.git",
+    "branch": "zvio-13.5"
 }
