@@ -50,7 +50,7 @@ repos += {
     "name": "zvio-ports",
     "path": "zvio-ports",
     "url": "ssh://git@github.com/derzahla/zvio-ports.git",
-    "branch": "zvio-13.5"
+    "branch": "zvio-13.5-20250807"
 }
 
 repos += {

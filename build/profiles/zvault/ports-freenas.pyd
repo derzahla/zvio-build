@@ -93,8 +93,6 @@ ports += {
     ]
 }
 
-
-
 ports += {
     "name": "freenas/py-middlewared",
     "options": [
@@ -104,6 +102,85 @@ ports += {
     ]
 }
 
+ports += {
+    "name": "freenas/samba",
+    "options": [
+        "OPTIONS_FILE_SET+=ACL_SUPPORT",
+        "OPTIONS_FILE_SET+=ADS",
+        "OPTIONS_FILE_UNSET+=AD_DC",
+        "OPTIONS_FILE_SET+=AIO_SUPPORT",
+        "OPTIONS_FILE_SET+=CLUSTER",
+        "OPTIONS_FILE_UNSET+=CUPS",
+        "OPTIONS_FILE_UNSET+=DEBUG",
+        "OPTIONS_FILE_UNSET+=DEVELOPER",
+        "OPTIONS_FILE_SET+=DNSUPDATE",
+        "OPTIONS_FILE_SET+=DOCS",
+        "OPTIONS_FILE_SET+=EXP_MODULES",
+        "OPTIONS_FILE_SET+=FAM",
+        "OPTIONS_FILE_SET+=LDAP",
+        "OPTIONS_FILE_SET+=LIBZFS",
+        "OPTIONS_FILE_SET+=MANPAGES",
+        "OPTIONS_FILE_SET+=PAM_SMBPASS",
+        "OPTIONS_FILE_SET+=PTHREADPOOL",
+        "OPTIONS_FILE_SET+=QUOTAS",
+        "OPTIONS_FILE_SET+=SPOTLIGHT",
+        "OPTIONS_FILE_SET+=SYSLOG",
+        "OPTIONS_FILE_SET+=UTMP",
+        "OPTIONS_FILE_SET+=NSUPDATE",
+        "OPTIONS_FILE_UNSET+=BIND99",
+        "OPTIONS_FILE_UNSET+=BIND910",
+        "OPTIONS_FILE_UNSET+=AVAHI",
+        "OPTIONS_FILE_UNSET+=MDNSRESPONDER",
+    ]
+}
+
+ports += {
+    "name": "freenas/areca-cli",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
+
+ports += {
+    "name": "freenas/samba",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
+
+ports += {
+    "name": "freenas/throttle",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
+
+ports += {
+    "name": "freenas/scanlnk",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
+
+ports += {
+    "name": "freenas/libhyve-remote",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
+
+ports += {
+    "name": "freenas/py-ws4py",
+    "options": [
+        "PRODUCT_VERSION=${VERSION}",
+        "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
+    ]
+}
 
 ports += {
     "name": "freenas/py-midcli",
