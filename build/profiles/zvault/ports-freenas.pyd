@@ -189,7 +189,7 @@ ports += {
 #}
 
 dedicated_repo_ports = [
-    "zvio-py-licenselib", "zvio-py-bsd", "zvio-pkgtools",
+    "zvio-licenselib", "zvio-py-bsd", "zvio-pkgtools",
 ]
 
 for iter_port in dedicated_repo_ports:
