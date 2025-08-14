@@ -128,10 +128,10 @@ ports += {
         "OPTIONS_FILE_SET+=WINSCP"
     ]
 }
-ports += "sysutils/e2fsprogs"
-ports += "sysutils/fusefs-libs"
-ports += "sysutils/fusefs-ntfs"
-ports += "sysutils/fusefs-s3fs"
+ports += "filesystems/e2fsprogs"
+ports += "filesystems/fusefs-libs"
+ports += "filesystems/libfsntfs"
+ports += "filesystems/fusefs-libs3"
 ports += "sysutils/smartmontools"
 ports += "net/libdnet"
 ports += {
@@ -269,7 +269,7 @@ ports += {
 ports += "sysutils/ipmitool"
 ports += "devel/py-daemon"
 ports += "www/wgetpaste"
-ports += "sysutils/sedutil"
+ports += "security/sedutil"
 ports += "sysutils/sg3_utils"
 ports += "sysutils/smp_utils"
 ports += "net/trafshow"
@@ -304,10 +304,6 @@ ports += "devel/py-xattr"
 ports += "converters/convmv"
 
 #ports += "sysutils/ipfs-go"
-ports += {
-    "name": "www/py-ws4py",
-    "options": ["OPTIONS_FILE_UNSET+=CHERRYPY", "OPTIONS_FILE_UNSET+=GEVENT"]
-}
 ports += "misc/mmv"
 ports += "misc/mbuffer"
 ports += {
@@ -320,7 +316,6 @@ ports += "sysutils/ncdu"
 ports += "www/novnc"
 ports += "www/novnc-websockify"
 ports += "net/libvncserver"
-ports += "devel/libhyve-remote"
 
 ports += "graphics/drm-kmod"
 ports += "net/aquantia-atlantic-kmod"
