@@ -36,10 +36,10 @@ ports += "databases/py-sqlite3"
 ports += "databases/py-berkeleydb"
 ports += "devel/py-six"
 ports += "filesystems/py-libzfs"
-ports += "freenas/py-bsd"
+ports += "zvault/py-bsd"
 
 ports += {
-    "name": "freenas/freenas-installer",
+    "name": "zvault/freenas-installer",
     "options": [
         "PRODUCT_VERSION=${VERSION}",
         "BUILD_TIMESTAMP=${BUILD_TIMESTAMP}",
