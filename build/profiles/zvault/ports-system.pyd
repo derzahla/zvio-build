@@ -26,7 +26,9 @@
 ports += "ports-mgmt/pkg"
 ports += {
     "name": "filesystems/openzfs",
-    "options": ["OPTIONS_FILE_SET+=PYTHON"]
+    "options": [
+        "OPTIONS_FILE_UNSET+=PYTHON"
+    ]
 }
 ports += "dns/bind-tools"
 ports += "dns/dnsmasq"
@@ -317,8 +319,8 @@ ports += "www/novnc"
 ports += "www/novnc-websockify"
 ports += "net/libvncserver"
 
-ports += "graphics/drm-kmod"
-ports += "net/aquantia-atlantic-kmod"
+#ports += "graphics/drm-kmod"
+#ports += "net/aquantia-atlantic-kmod"
 ports += "net/realtek-re-kmod"
 
 if DEBUG:

@@ -42,10 +42,14 @@ copy += {
 }
 
 copy += {
+    "source": "${BE_ROOT}/zvio-middleware/nas_ports/zvault/zvio-py-fenced",
+    "dest": "/usr/nas_source/zvio-py-fenced"
+}
+
+copy += {
     "source": "${BE_ROOT}/zvio-py-licenselib",
     "dest": "/usr/nas_source/zvio-py-licenselib"
 }
-
 copy += {
     "source": "${BE_ROOT}/zvio-pkgtools",
     "dest": "/usr/nas_source/zvio-pkgtools"
