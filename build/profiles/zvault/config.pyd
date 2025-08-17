@@ -164,7 +164,6 @@ make_conf_pkg = {
     "STRIP":                        "",
     "MAKE_ENV":                     "+= DONTSTRIP=yes",
     "STRIP_CMD":                    "true",
-    "CPUTYPE":                      "znver1"
 }
 
 # Configuration for installed NAS
