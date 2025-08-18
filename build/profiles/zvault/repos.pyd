@@ -28,7 +28,7 @@ repos += {
     "name": "zvio-os",
     "path": "zvio-os",
     "url": "ssh://git@github.com/derzahla/zvio-os",
-    "branch": "releng/13.5"
+    "branch": "zvio-13.5"
 }
 
 repos += {
