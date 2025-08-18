@@ -28,14 +28,14 @@ repos += {
     "name": "zvio-os",
     "path": "zvio-os",
     "url": "ssh://git@github.com/derzahla/zvio-os",
-    "branch": "releng/13.5"
+    "branch": "releng/14.3"
 }
 
 repos += {
     "name": "zvio-middleware",
     "path": "zvio-middleware",
     "url": "ssh://git@github.com/derzahla/zvio-middleware",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
 
 
@@ -43,7 +43,7 @@ repos += {
     "name": "zvio-webui",
     "path": "zvio-webui",
     "url": "ssh://git@github.com/derzahla/zvio-webui",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
 
 repos += {
@@ -57,26 +57,26 @@ repos += {
     "name" :"zvio-py-licenselib",
     "path": "zvio-py-licenselib",
     "url": "ssh://git@github.com/derzahla/zvio-py-licenselib.git",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
 
 repos += {
     "name": "zvio-pkgtools",
     "path": "zvio-pkgtools",
     "url": "ssh://git@github.com/derzahla/zvio-pkgtools.git",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
 
 repos += {
     "name": "zvio-py-bsd",
     "path": "zvio-py-bsd",
     "url": "ssh://git@github.com/derzahla/zvio-py-bsd.git",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
 
 repos += {
     "name": "zvio-iocage",
     "path": "zvio-iocage",
     "url": "ssh://git@github.com/derzahla/zvio-iocage.git",
-    "branch": "zvio-13.5"
+    "branch": "zvio-14.3"
 }
